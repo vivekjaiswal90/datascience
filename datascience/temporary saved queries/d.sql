@@ -1,0 +1,1 @@
+select * from linkedin.main where connection_id=54617945

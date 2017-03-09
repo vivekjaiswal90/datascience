@@ -1,0 +1,1 @@
+select skill,count(*) from linkedin.skill group by skill order by count(*) desc limit 1

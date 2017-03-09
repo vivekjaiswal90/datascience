@@ -1,0 +1,1 @@
+select *,count(*) from linkedin.main group by profile_id

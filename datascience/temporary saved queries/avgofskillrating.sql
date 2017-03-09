@@ -1,0 +1,1 @@
+select skill,avg(convert(rating,signed integer))as avgrating from linkedin.skill group by skill

@@ -1,0 +1,1 @@
+select groups,skill,count(*) from skillgroups where skill='programming' group by groups order by count(*)desc limit 10

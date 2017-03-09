@@ -1,0 +1,1 @@
+select *,count(*)  from linkedin.info group by connection_id
